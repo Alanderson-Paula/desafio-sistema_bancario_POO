@@ -18,11 +18,6 @@ Refatorar a implementação existente para utilizar classes e objetos.
 Seguir os princípios da Programação Orientada a Objetos (encapsulamento, herança e polimorfismo).
 Estruturar o código de forma clara e organizada, facilitando a manutenção e escalabilidade.
 
-## 🛠️ Tecnologias Utilizadas
-- Python
-- Conceitos de POO
-- UML para modelagem
-
 ## 🎮 **Como Usar**
 
 #### 1️⃣ Clone este repositório:
