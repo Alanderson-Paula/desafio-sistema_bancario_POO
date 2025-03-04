@@ -1,5 +1,5 @@
 <p>
-  <h1 align="center">🏦 Sistema Bancário em POO com Python - Banco D'Paula</h1>
+  <h1 align="center">🏦 Sistema Bancário em POO com Python <br> Banco D'Paula</h1>
 </p>
 <br>
 
