@@ -1,7 +1,13 @@
-# 🏦 Desafio Modelando o Sistema Bancário em POO com Python - Banco D'Paula
+<p>
+  <h1 align="center">🏦 Sistema Bancário em POO com Python - Banco D'Paula</h1>
+</p>
+<br>
 
-Este projeto faz parte de um desafio para aprimorar a implementação de um sistema bancário utilizando Programação Orientada a Objetos (POO). O objetivo é substituir o uso de dicionários para armazenar os dados de clientes e contas bancárias por uma estrutura baseada em classes, seguindo um modelo UML.
----
+## 📌 Objetivos
+Refatorar a implementação existente para utilizar classes e objetos, aplicando os princípios da Programação Orientada a Objetos (POO), como encapsulamento, herança e polimorfismo. O objetivo é estruturar o código de forma mais clara e organizada, facilitando a manutenção e escalabilidade do sistema.
+
+Este projeto faz parte do desafio da **DIO - Suzano Python Developer**, visando aprimorar a implementação de um sistema bancário utilizando POO. A principal melhoria é substituir o uso de dicionários para armazenar os dados de clientes e contas bancárias por uma estrutura baseada em classes, seguindo um modelo UML.
+
 
 ## 📌 Funcionalidades
 
@@ -12,11 +18,34 @@ Este projeto faz parte de um desafio para aprimorar a implementação de um sist
 ✅ Atualização e exclusão de clientes.<br>
 ✅ Interface via terminal, interativa e intuitiva.<br>
 
----
-## 📌 Objetivos
-Refatorar a implementação existente para utilizar classes e objetos.
-Seguir os princípios da Programação Orientada a Objetos (encapsulamento, herança e polimorfismo).
-Estruturar o código de forma clara e organizada, facilitando a manutenção e escalabilidade.
+## 🛠️ Tecnologias Utilizadas
+- Python 3
+- Conceitos de POO
+- UML para modelagem
+- Biblioteca [Colorama](https://github.com/tartley/colorama) (para formatação de cores no terminal)
+- [BrazilCEP](https://brazilcep.readthedocs.io/) (para consulta de endereço via CEP)
+    #### 📍 BrazilCEP – Biblioteca de Busca de Endereço pelo CEP
+    A biblioteca brazilcep foi utilizada no projeto para realizar a consulta do endereço completo a partir do CEP informado. Sua principal vantagem é a facilidade de integração e a dinamicidade que ela oferece. Ao invés de o usuário ter que inserir o endereço completo manualmente, basta informar o CEP, e a biblioteca retorna automaticamente informações como:
+
+    - Rua
+    - Bairro
+    - Cidade
+    - Estado
+
+    Isso torna o processo de cadastro de clientes muito mais ágil, permitindo que o sistema obtenha rapidamente os dados corretos a partir do CEP.
+
+    Além disso, caso o CEP não seja encontrado ou esteja incorreto, a biblioteca lida com exceções de forma transparente, permitindo que o sistema continue a execução sem que o usuário seja impactado por erros técnicos.
+
+    #### 🎨 Colorama – Formatação de Cores no Terminal
+    A biblioteca colorama é utilizada no projeto para melhorar a interatividade e visualização das mensagens no terminal, tornando a experiência do usuário mais agradável e dinâmica.
+
+    Ela oferece a capacidade de formatar o texto no terminal com cores e estilos, como:
+
+    - Cores de texto (ex.: verde, vermelho, amarelo)
+    - Estilos de texto (ex.: negrito, reset)
+    - Formatação de fundo (ex.: cor de fundo específica)
+
+    Isso é especialmente útil no seu projeto para exibir mensagens de alerta, avisos e resultados das transações de forma clara e diferenciada. Por exemplo, mensagens de erro podem ser exibidas em vermelho para chamar atenção, enquanto mensagens de sucesso podem ser verdes. Essa formatação ajuda o usuário a identificar rapidamente a natureza da informação, seja ela um erro, alerta ou confirmação de sucesso.
 
 ## 🎮 **Como Usar**
 
@@ -53,37 +82,6 @@ python main.py
 
 ### 📄 Extrato da Conta
 ![ext](img/extrato.JPG)
-
-
-
-## 🛠️ Tecnologias Utilizadas
-- Python 3
-- Conceitos de POO
-- UML para modelagem
-- Biblioteca [Colorama](https://github.com/tartley/colorama) (para formatação de cores no terminal)
-- [BrazilCEP](https://brazilcep.readthedocs.io/) (para consulta de endereço via CEP)
-    #### 📍 BrazilCEP – Biblioteca de Busca de Endereço pelo CEP
-    A biblioteca brazilcep foi utilizada no projeto para realizar a consulta do endereço completo a partir do CEP informado. Sua principal vantagem é a facilidade de integração e a dinamicidade que ela oferece. Ao invés de o usuário ter que inserir o endereço completo manualmente, basta informar o CEP, e a biblioteca retorna automaticamente informações como:
-
-    - Rua
-    - Bairro
-    - Cidade
-    - Estado
-
-    Isso torna o processo de cadastro de clientes muito mais ágil, permitindo que o sistema obtenha rapidamente os dados corretos a partir do CEP.
-
-    Além disso, caso o CEP não seja encontrado ou esteja incorreto, a biblioteca lida com exceções de forma transparente, permitindo que o sistema continue a execução sem que o usuário seja impactado por erros técnicos.
-
-    #### 🎨 Colorama – Formatação de Cores no Terminal
-    A biblioteca colorama é utilizada no projeto para melhorar a interatividade e visualização das mensagens no terminal, tornando a experiência do usuário mais agradável e dinâmica.
-
-    Ela oferece a capacidade de formatar o texto no terminal com cores e estilos, como:
-
-    - Cores de texto (ex.: verde, vermelho, amarelo)
-    - Estilos de texto (ex.: negrito, reset)
-    - Formatação de fundo (ex.: cor de fundo específica)
-
-    Isso é especialmente útil no seu projeto para exibir mensagens de alerta, avisos e resultados das transações de forma clara e diferenciada. Por exemplo, mensagens de erro podem ser exibidas em vermelho para chamar atenção, enquanto mensagens de sucesso podem ser verdes. Essa formatação ajuda o usuário a identificar rapidamente a natureza da informação, seja ela um erro, alerta ou confirmação de sucesso.
 
 ## 📌 Melhorias Futuras 🔥
 - Implementação de uma interface gráfica.
