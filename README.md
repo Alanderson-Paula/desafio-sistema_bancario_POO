@@ -18,8 +18,8 @@ Este projeto faz parte de um desafio para aprimorar a implementação de um sist
 
 #### 1️⃣ Clone este repositório:
    ```bash
-   git clone https://github.com/Alanderson-Paula/desafio-otimizando_sistema_bancario.git
-   cd desafio-otimizando_sistema_bancario
+   git clone https://github.com/Alanderson-Paula/desafio-sistema_bancario_POO.git
+   cd desafio-sistema_bancario_POO
    ```
 #### 2️⃣ Instale as dependências necessárias (se houver):
 
