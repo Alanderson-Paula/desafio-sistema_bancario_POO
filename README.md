@@ -13,6 +13,15 @@ Este projeto faz parte de um desafio para aprimorar a implementação de um sist
 ✅ Interface via terminal, interativa e intuitiva.<br>
 
 ---
+## 📌 Objetivos
+Refatorar a implementação existente para utilizar classes e objetos.
+Seguir os princípios da Programação Orientada a Objetos (encapsulamento, herança e polimorfismo).
+Estruturar o código de forma clara e organizada, facilitando a manutenção e escalabilidade.
+
+## 🛠️ Tecnologias Utilizadas
+- Python
+- Conceitos de POO
+- UML para modelagem
 
 ## 🎮 **Como Usar**
 
@@ -52,8 +61,10 @@ python main.py
 
 
 
-## 🛠 Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 - Python 3
+- Conceitos de POO
+- UML para modelagem
 - Biblioteca [Colorama](https://github.com/tartley/colorama) (para formatação de cores no terminal)
 - [BrazilCEP](https://brazilcep.readthedocs.io/) (para consulta de endereço via CEP)
     #### 📍 BrazilCEP – Biblioteca de Busca de Endereço pelo CEP
@@ -115,5 +126,5 @@ Este projeto está sob a licença MIT. Sinta-se livre para modificá-lo e usá-l
 
 
 <br><br><br><br><br>
-🚀 Desenvolvido com 💙 por Alanderson de Paula
+<p align="right">𝒜𝓁𝒶𝓃𝒹𝑒𝓇𝓈𝑜𝓃 𝒯𝒶𝒹𝑒𝓊 𝒹𝑒 𝒫𝒶𝓊𝓁𝒶 💙</p>
 
