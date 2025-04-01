@@ -71,17 +71,20 @@ python conta_bancaria_v2.py
 ### 📜 Menu Principal
 ![menu](img/menu.JPG)
 
-### 🏧 Cadastrar Cliente | Criar Conta
-![cacri](img/cacri.JPG)
+### 🏧 Cadastrar Cliente | Atualizar Cliente
+![cacri](img/cadatu.JPG)
 
-### 🏧 Atualizar | Exibir Cliente
-![atex](img/atex.JPG)
+### 🏧 Criar Conta
+![cacri](img/criar.JPG)
 
-### 💰🏧 Operação de Depósito e Saque
-![dep_saq](img/DS.JPG)
+### 🏧 Exibir Cliente | Listar Clientes
+![atex](img/exilist.JPG)
 
-### 📄 Extrato da Conta
-![ext](img/extrato.JPG)
+### 💰🏧 Operação de Saque e Depósito
+![dep_saq](img/saqdep.JPG)
+
+### 📄 Extrato da Conta | Deletar Cliente
+![ext](img/extdel.JPG)
 
 ## 📌 Melhorias Futuras 🔥
 - Implementação de uma interface gráfica.

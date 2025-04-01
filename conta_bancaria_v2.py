@@ -18,6 +18,7 @@ class Cliente:
 
     A classe permite que o cliente realize transações bancárias e gerencie suas contas cadastradas.
     """
+
     def __init__(self, endereco, numero, cep):
         """
         #### Inicializa um cliente bancário com endereço, número e CEP.
@@ -100,6 +101,7 @@ class PessoaFisica(Cliente):
         >>> print(tipo_conta)
         "corrente"
     """
+
     def __init__(self, nome, data_nascimento, cpf, endereco, numero, cep):
         """
         #### Inicializa um cliente Pessoa Física com suas informações pessoais e bancárias.
@@ -393,6 +395,7 @@ class ContaCorrente(ContaBancaria):
         sacar(valor: float): Realiza um saque na conta, respeitando o limite e o número máximo de saques diários.
         __str__(): Retorna uma representação textual da conta corrente.
     """
+
     def __init__(self, cliente, limite=500, limite_saque=3):
         """
         #### Inicializa uma conta corrente.
@@ -619,6 +622,7 @@ class Banco:
         listar_clientes(): Retorna a lista de clientes cadastrados.
         listar_contas(): Retorna uma lista de todas as contas associadas aos clientes do banco.
     """
+
     def __init__(self):
         """
         #### Inicializa a classe `Banco`.
@@ -1350,33 +1354,21 @@ def listar_contas(clientes):
     if not clientes:
         print(emitir_mensagem(("Alerta", "Nenhuma conta cadastrada.")))
         return
-# def listar_contas(contas):
-#     if not contas:
-#         print(emitir_mensagem(("Alerta", "Nenhuma conta cadastrada.")))
-#         return
 
     print("\n\t" + "═" * 50)
     print("\t\t\t  CONTAS CADASTRADAS")
     print("\t" + "═" * 50)
 
-    # for idx, conta in enumerate(contas, 1):
-    #     print(f"\n\t Conta #{idx}")
-    #     print(f"\t Agência:         {conta.agencia}")
-    #     print(f"\t Nº da Conta:     {conta.numero_conta}")
-    #     print(f"\t Titular:         {conta.cliente.nome.title() if hasattr(conta.cliente, 'nome') else conta.cliente.razao_social.title()}")
-    #     print(f"\t Saldo:           R$ {conta.saldo:.2f}")
-    #     print(f"\t Tipo de Conta:   {'Corrente' if isinstance(conta, ContaCorrente) else 'Poupança'}")
-    #     print('\t' + '─' * 50)
-
     for cliente in clientes:
-        # for conta in cliente.contas:
         for idx, conta in enumerate(cliente.contas, 1):
-            print(f"\n\t Conta   #{idx}")
-            print(f"\n\t Agência:       {conta.agencia}")
+            print(f"\n\t Conta #{idx}")
+            print(f"\n\t Agência:         {conta.agencia}")
             print(f"\t Nº da Conta:     {conta.numero_conta}")
-            print(f"\t Titular:         {cliente.nome.title() if hasattr(cliente, 'nome') else cliente.razao_social.title()}")
+            print(
+                f"\t Titular:         {cliente.nome.title() if hasattr(cliente, 'nome') else cliente.razao_social.title()}")
             print(f"\t Saldo:           R$ {conta.saldo:.2f}")
-            print(f"\t Tipo de Conta:   {'Corrente' if isinstance(conta, ContaCorrente) else 'Poupança'}")
+            print(
+                f"\t Tipo de Conta:   {'Corrente' if isinstance(conta, ContaCorrente) else 'Poupança'}")
             print('\t' + '─' * 50)
 
 
