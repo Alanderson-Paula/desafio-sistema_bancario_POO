@@ -62,7 +62,7 @@ pip install colorama brazilcep
 #### 3️⃣ Execute o programa:
 
 ```bash
-python main.py
+python conta_bancaria_v2.py
 ```
 
 #### 4️⃣ Escolha uma das opções do menu exibido no terminal para interagir com o sistema.
