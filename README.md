@@ -75,7 +75,7 @@ python conta_bancaria_v2.py
 ![cacri](img/cadatu.JPG)
 
 ### 🏧 Criar Conta
-![cacri](img/criar.JPG)
+![cacri](img/Criar.JPG)
 
 ### 🏧 Exibir Cliente | Listar Clientes
 ![atex](img/exilist.JPG)
